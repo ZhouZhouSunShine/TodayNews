@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="textColorValue" format="color"></attr>
+    <attr name="textContent" format="string"></attr>
+    <attr name="slidingMenu" format="color"></attr>
+    <attr name="schema" format="dimension"></attr>
+</resources>

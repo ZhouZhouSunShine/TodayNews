@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    >
+
+    <TextView
+        android:id="@+id/newItem1_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="文字"
+        android:textColor="#000000"
+        />
+
+    <ImageView
+        android:id="@+id/newItem1_image1"
+        android:layout_width="220dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/newItem1_text"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@+id/newItem1_text"
+        />
+
+    <ImageView
+        android:id="@+id/newItem1_image2"
+        android:layout_width="220dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/newItem1_text"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/newItem1_image1"
+        android:layout_marginLeft="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/newItem1_star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/item"
+        android:layout_below="@+id/newItem1_image1"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+    android:id="@+id/newItem1_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/newItem1_image1"
+    android:layout_toRightOf="@+id/newItem1_star"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:text="文字"
+    />
+
+    <TextView
+        android:id="@+id/newItem1_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newItem1_image1"
+        android:layout_toRightOf="@+id/newItem1_name"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="文字"
+        />
+
+    <ImageView
+        android:id="@+id/newItem1_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newItem1_image2"
+        android:layout_alignRight="@+id/newItem1_image2"
+        android:src="@drawable/more"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_toLeftOf="@+id/item1_image"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/item1_text"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="65dp" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="5dp"
+            >
+            <ImageView
+                android:id="@+id/pop1_add"
+                android:src="@drawable/more"
+                android:layout_width="25dp"
+                android:layout_height="25dp" />
+            <ImageView
+                android:src="@mipmap/hand"
+                android:layout_width="25dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="25dp" />
+            <TextView
+                android:id="@+id/item1_time"
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/item1_image"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
